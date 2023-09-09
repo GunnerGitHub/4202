@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>exploration_strategy</name>
+  <version>0.0.0</version>
+  <description>ROS2 Exploration Strategy</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>TODO: License declaration</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
